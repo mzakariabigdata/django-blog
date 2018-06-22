@@ -39,7 +39,7 @@ Vagrant.configure("2") do |config|
         echo "export WORKON_HOME=~/.virtualenvs" >> /home/ubuntu/.bashrc
         echo "export PROJECT_HOME=/vagrant" >> /home/ubuntu/.bashrc
         echo "source /usr/local/bin/virtualenvwrapper.sh" >> /home/ubuntu/.bashrc
-        source ~/.bashrc
+        source /home/ubuntu/.bashrc
     fi
 
   SHELL
